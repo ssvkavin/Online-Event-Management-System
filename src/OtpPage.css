@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e6ccff; /* Light purple background */
+    background-color: #e6ccff; 
   }
   
   .otp-box {
@@ -26,7 +26,7 @@
   button {
     width: 100%;
     padding: 10px;
-    background: #6a0dad; /* Purple */
+    background: #6a0dad; 
     color: white;
     border: none;
     border-radius: 5px;
