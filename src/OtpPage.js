@@ -5,7 +5,7 @@ import "./OtpPage.css"
 const OtpPage = () => {
   const [mobile, setMobile] = useState("");
   const [otp, setOtp] = useState("");
-  const [generatedOtp, setGeneratedOtp] = useState(null); // Store generated OTP
+  const [generatedOtp, setGeneratedOtp] = useState(null); 
   const [otpSent, setOtpSent] = useState(false);
   const navigate = useNavigate();
 
@@ -14,7 +14,7 @@ const OtpPage = () => {
       const randomOtp = Math.floor(1000 + Math.random() * 9000); // Generate 4-digit OTP
       setGeneratedOtp(randomOtp);
       setOtpSent(true);
-      alert(`OTP sent to ${mobile}: ${randomOtp}`); // Simulate OTP sending
+      alert(`OTP sent to ${mobile}: ${randomOtp}`); 
     } else {
       alert("Enter a valid 10-digit mobile number");
     }
