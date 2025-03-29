@@ -1,0 +1,57 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');*/
+
+/* Full-screen background */
+.loading-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /*background-image: url("/images/loading.jpg");  Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dark overlay effect */
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* "Go" button styles */
+.go-button {
+    padding: 10px 25px;
+    width: 100px;
+    font-size: 24px;
+    color: white;
+    background: #e164db; /* Pastel coral */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.go-button:hover {
+    background: #9d0f8a; /* Darker coral */
+}
+/* Company Name Styling */
+.company-name {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFD700; /* Unique pastel yellow */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
