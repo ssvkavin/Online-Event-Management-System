@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import backgroundImage from "./assets/evt3.jpg"; // Import image
+import backgroundImage from "./assets/evt3.jpg"; 
 import "./LoadingPage.css"
 const LoadingPage = () => {
     const navigate = useNavigate();
