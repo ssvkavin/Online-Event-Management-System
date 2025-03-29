@@ -1,20 +1,4 @@
-/*import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LoadingPage from "./LoadingPage";
-import Eventlist from "./Eventlist";
 
-function App() {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<LoadingPage />} />
-                <Route path="/events" element={<Eventlist />} />
-            </Routes>
-        </Router>
-    );
-}
-
-export default App;*/
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Eventlist from "./Eventlist";
 import AuthPage from "./AuthPage";
